@@ -10,4 +10,6 @@
 
 @interface SKBViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *button;
+
 @end

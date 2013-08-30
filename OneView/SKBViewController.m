@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (BOOL)respondsToSelector:(SEL)aSelector {
+    NSLog(@"New Selector: %@", NSStringFromSelector(aSelector));
+    return [super respondsToSelector:aSelector];
+}
+
 @end
